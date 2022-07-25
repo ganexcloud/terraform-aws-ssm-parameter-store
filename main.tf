@@ -1,3 +1,8 @@
+/**
+  *
+  * Create a SSM Parameter Store resource.
+  */
+
 resource "random_password" "this" {
   count            = var.value == "" ? 1 : 0
   length           = 32

@@ -1,4 +1,7 @@
 <!-- BEGIN_TF_DOCS -->
+
+Create a SSM Parameter Store resource.
+
 ## Requirements
 
 | Name | Version |
