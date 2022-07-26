@@ -10,5 +10,5 @@ output "version" {
 
 output "value" {
   description = "Value of the parameter."
-  value       = var.value == "" ? random_password.this[0].result : var.value
+  value       = length(var.value) == 0 ? random_password.this.result : var.value
 }
